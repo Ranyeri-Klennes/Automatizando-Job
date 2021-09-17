@@ -1,5 +1,7 @@
+from tkinter import LabelFrame
 import pyautogui
 from time import sleep
+# from pynput import keyboard
 
 pyautogui.PAUSE = 0.5
 
@@ -27,14 +29,18 @@ if pergunta == 'Sim':
     pyautogui.write('youtu.be')
     pyautogui.press('enter')
     pyautogui.sleep(10)
-    pyautogui.click(1266, 143, 1, interval=0.3, button='left')
-    if pyautogui.press('enter') == pyautogui.press('enter', pause=2) :
-        pyautogui.alert('Acessando conta...')
+    pyautogui.click(1266, 143, 1, interval=0.3, button='left')# clica para acessar o login.
 else: 
-    pergunta2 = pyautogui.confirm('Assim que tiver ok avise...', buttons=['Ok','Parar!'])
-    if pergunta2 == 'Ok':
-        ... #faça tal coisa...
-    else:
-        pyautogui.FAILSAFE
+    pyautogui.PAUSE
+
+
+# if pyautogui.press (['enter','enter']):
+#         pyautogui.alert('Acessando conta...')
+# else:
+#     pergunta2 = pyautogui.confirm('Assim que tiver ok avise...', buttons=['Ok','Parar!'])
+#     if pergunta2 == 'Ok':   
+#         ... #faça tal coisa...
+#     else:
+#         pyautogui.FailSafeException
 
 # ABRIR SISTEMA REMOTO
