@@ -6,7 +6,7 @@
 
 ## 📸 Demonstração do Bot
 
-<img width="1366" height="768" alt="Demonstração do Bot de Automação" src="https://github.com/user-attachments/assets/a1d44cb4-f98e-4e09-a58a-5cded5a0f79e" />
+![Demonstração do Bot de Automação](./assets/imagem-demostrativa-do-projeto.png)
 
 ---
 
