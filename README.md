@@ -1,44 +1,44 @@
 # Desktop Automation Bot ☕🤖
 
+> **Nota de Estudo:** Este projeto foi um dos meus primeiros passos na automação com Python. Ele representa o início da minha jornada em busca de produtividade, focado em entender a lógica de controle de interface, antes de eu consolidar meus conhecimentos atuais em segurança e arquitetura.
+
+---
+
+## 📸 Demonstração do Bot
+
 <img width="1366" height="768" alt="Demonstração do Bot de Automação" src="https://github.com/user-attachments/assets/a1d44cb4-f98e-4e09-a58a-5cded5a0f79e" />
 
 ---
 
 ## ✨ A Ideia por trás do Projeto
 
-Sabe aqueles primeiros 10 ou 15 minutos do dia em que a gente só fica abrindo abas, fazendo logins e organizando janelas antes de realmente começar a trabalhar? 
+Este script nasceu da vontade de automatizar aqueles 15 minutos iniciais do dia, onde abrimos as mesmas abas e ferramentas repetidamente. Foi meu laboratório para entender como o código pode interagir diretamente com o sistema operacional para economizar tempo humano.
 
-Este projeto nasceu para acabar com essa "fricção" matinal. Criei um script em Python que assume as tarefas repetitivas de configuração do ambiente, para que eu (ou você) possa focar no que realmente importa desde o primeiro segundo.
-
-**Em resumo:** Eu ganho tempo de foco e, de quebra, o bot me deseja um bom dia quando termina.
+**Em resumo:** Eu criei um "ajudante" que prepara meu ambiente enquanto busco um café, me permitindo focar no que realmente importa assim que sento na cadeira.
 
 ---
 
-## 🚀 O que ele faz na prática?
+## 🚀 Como ele funciona (na prática)
 
-O fluxo é pensado para ser o mais simples possível:
+O fluxo foi desenhado para ser o mais simples possível, focado em aprendizado de lógica:
 
-1.  **Ativação:** Assim que ligo o notebook, rodo o comando principal.
-2.  **Automação:** Enquanto vou buscar um café, o PyAutoGUI assume o controle do mouse e teclado, abre os softwares necessários, organiza o layout das janelas e faz os logins iniciais.
-3.  **Check-point:** Ao retornar à mesa, encontro tudo pronto e uma mensagem personalizada:
+1.  **Ativação:** Ao ligar o computador, executo o comando principal.
+2.  **Execução:** O PyAutoGUI assume o controle, abre os softwares necessários e organiza as janelas no monitor.
+3.  **Finalização:** Ao retornar, encontro tudo pronto e uma mensagem de boas-vindas: 
     > *"Tudo certo Rany, tenha um ótimo dia!"*
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
 
-Escolhi ferramentas leves e poderosas para garantir que a automação seja rápida:
-
-* **Python:** A base de tudo, pela simplicidade e legibilidade.
-* **PyAutoGUI:** A biblioteca mágica que permite ao script "enxergar" a tela e simular movimentos humanos de mouse e teclado.
+* **Python:** Linguagem escolhida pela clareza e facilidade de manipulação de scripts.
+* **PyAutoGUI:** Biblioteca utilizada para simular movimentos humanos de mouse e teclado.
 
 ---
 
-## 📖 Como usar (mesmo se você não for dev)
+## 📖 Reflexão Técnica
 
-Se você quer testar ou adaptar para o seu dia a dia, siga estes passos:
+Como este foi um projeto de aprendizado inicial, o foco total foi na **funcionalidade e automação de interface**. Hoje, com minha experiência atual, utilizaria abordagens diferentes em termos de segurança de credenciais e estruturação de código, mas este repositório permanece aqui como um registro valioso da minha base técnica e curiosidade em resolver problemas reais.
 
-### 1. Preparando o terreno
-Você vai precisar do Python instalado no seu computador. Depois, abra o seu terminal (ou CMD) e instale a biblioteca necessária:
-```bash
-pip install pyautogui
+---
+Desenvolvido com ☕ por [Ranyeri Klennes](https://portfolio-ranyeri-klennes.vercel.app/) durante os primeiros passos na automação.
